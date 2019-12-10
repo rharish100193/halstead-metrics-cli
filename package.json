@@ -6,11 +6,20 @@
         "email": "rharish100193@gmail.com",
         "url": "https://github.com/rharish100193"
     },
+    "scripts": {
+        "test": "node index.js",
+        "antlr4": "java -Xmx500M -cp '/usr/local/lib/antlr-4.7.2-complete.jar:$CLASSPATH' org.antlr.v4.Tool  -Dlanguage=JavaScript -lib grammars -o lib/antlr4 -visitor -Xexact-output-dir grammars/*.g4"
+    },
     "dependencies": {
         "antlr4": "4.7.2"
     },
     "devDependencies": {
         "eslint": "^6.7.2",
         "eslint-config-google": "^0.14.0"
-    }
+    },
+    "files": [
+        "/lib",
+        "/LICENSE",
+        "/README.md"
+    ]
 }
