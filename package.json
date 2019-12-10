@@ -1,0 +1,16 @@
+{
+    "name": "halstead-metrics-cli",
+    "version": "0.0.1",
+    "author": {
+        "name": "Harish Ramasubramanian",
+        "email": "rharish100193@gmail.com",
+        "url": "https://github.com/rharish100193"
+    },
+    "dependencies": {
+        "antlr4": "4.7.2"
+    },
+    "devDependencies": {
+        "eslint": "^6.7.2",
+        "eslint-config-google": "^0.14.0"
+    }
+}
