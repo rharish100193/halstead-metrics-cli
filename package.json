@@ -8,7 +8,7 @@
     },
     "scripts": {
         "test": "node index.js",
-        "antlr4": "java -Xmx500M -cp '/usr/local/lib/antlr-4.7.2-complete.jar:$CLASSPATH' org.antlr.v4.Tool  -Dlanguage=JavaScript -lib grammars -o lib/antlr4 -visitor -Xexact-output-dir grammars/*.g4"
+        "antlr4": "cd grammars/ && java -Xmx500M -cp '/usr/local/lib/antlr-4.7.2-complete.jar:$CLASSPATH' org.antlr.v4.Tool  -Dlanguage=JavaScript -o ../lib/antlr4 -visitor -Xexact-output-dir ./*.g4"
     },
     "dependencies": {
         "antlr4": "4.7.2"
